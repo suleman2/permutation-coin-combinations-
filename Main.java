@@ -62,6 +62,14 @@ public class Main {
         if(args[0].contains("test1")) {
             n = 5;
         }
+        else if(args[1].contains("test2"))
+        {
+            n = 3 ;
+        }
+        else
+        {
+            System.out.println("-----ALERT-----Wrong inputs please entre test1 or test2------");
+        }
             int size = 100;
             int[] array = new int[size];
              Print(array, n, 0);
